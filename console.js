@@ -64,7 +64,7 @@ function getHumanChoice() {
     }
   };
 
-
+  
 // display choices between human and computer
 function checkChoice(){
     return console.log(`human choice ${humanChoice} and computer choice ${computerChoice}`)
@@ -80,7 +80,7 @@ function playgame() {
         getComputerChoice();
         console.log(`The computer chooses: ${computerChoice}\nyour chooses: ${humanChoice}`);
         playRound(humanChoice, computerChoice)
-        if (round === 5) {
+        if (round === 5) {SVGAElement
           if (humanScore === computerScore) {
               console.log(`You won ${humanScore} time(s)`);
               console.log(`The computer won ${computerScore} time(s)`);
@@ -94,6 +94,9 @@ function playgame() {
               console.log(`The computer won ${computerScore} time(s)`);
               console.log("You lose :(");
           }
+
+          
+          
         }
     }
 }
